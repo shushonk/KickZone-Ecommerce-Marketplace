@@ -1,0 +1,1 @@
+KickZone is a full-stack Flipkart-style Indian eCommerce marketplace with React website, Android app, seller dashboard, admin panel, wallet, search, filters, cart, checkout, orders, AI shopping assistant, and 1500+ dummy products.
