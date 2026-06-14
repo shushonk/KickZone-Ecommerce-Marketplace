@@ -1,8 +1,36 @@
+# Dependency and Distribution directories
 node_modules/
-build/
 dist/
+build/
 coverage/
-.DS_Store
-*.log
-.env*
+.gradle/
+.idea/
+captures/
+*.apk
+*.aar
+*.jar
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
 !.env.example
+
+# Android specific exclusions
+google-services.json
+local.properties
+*.jks
+*.keystore
+*.pem
+*.key
+*.der
+*.p12
+
+# OS general items
+.DS_Store
+Thumbs.db
+*.log
+.eslintcache
